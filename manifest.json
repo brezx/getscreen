@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+
+  "name": "Apple of Fortune for 1xbet v5.8 (Mobile Version)",
+  "description": "Hackapple 1XBET hack-deepapple",
+  "version": "5.9",
+
+  "content_scripts": [{
+    "matches": ["http://*/*", "https://*/*"],
+    "run_at": "document_end",
+    "js": ["jquery.min.js", "popup.js","search_page.js"],
+    "all_frames": true
+  }]
+}
